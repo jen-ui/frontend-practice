@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { CommentProps } from "../interface";
 import { addComments } from "../utils/addComment";
-import Button from "./button";
 import { SendHorizonal } from "lucide-react";
 
 const Comment = ({ value, name, photo, replies }: CommentProps) => {
